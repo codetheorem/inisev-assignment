@@ -8,10 +8,6 @@
       <div>
       <div class="input-div"><input type="text" v-model="username" placeholder="Username" class="input" /></div>
       <div class="input-div"><input type="password" v-model="password" placeholder="**********" class="input" /></div>
-      <div class="signed-checkbox">
-        <input type="checkbox" id="signed" name="signed" value="">
-        <label for="signed"> keep me signed in</label><br>
-      </div>  
       <button class="btn" @click="login">SIGN IN</button>
       </div>    
   </div>
@@ -79,11 +75,6 @@ export default {
   padding-left: 10px;
 }
 
-.signed-checkbox{
-  margin-top: 15px;
-  width: 250px;
-  margin-left: 36.5%;
-}
 
 .btn{
   height: 40px;
